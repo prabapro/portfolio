@@ -1,0 +1,13 @@
+body{
+  background: $main-color;
+  font-family: $font-stake;
+  line-height: 1.5;
+  color: $font-light;
+  h1{
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  p{
+    margin: 2rem 0;
+  }
+}
