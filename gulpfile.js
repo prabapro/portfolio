@@ -8,12 +8,12 @@ var imagemin = require('gulp-imagemin');
 var uglify = require('gulp-uglify');
 
 // Style Functions
-var styleSRC = 'scss/app.scss';
+var styleSRC = 'scss/*.scss';
 var styleDIST = './dist/css/';
 var styleWatch = 'scss/**/*.scss';
 
 // JS Functions
-var jsSRC = 'js/script.js';
+var jsSRC = 'js/*.js';
 var jsDIST = './dist/js/';
 var jsWatch = 'js/**/*.js';
 
