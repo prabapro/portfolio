@@ -4,7 +4,6 @@
     margin-top: 20vh;
   }
 }
-
 // Medium Screens - iPads & Tablets
 @include mediaMd {
   main {
@@ -22,21 +21,21 @@
     }
   }
 
-  ul.menu-nav,
-  div.menu-branding {
+  div.menu-branding,
+  ul.menu-nav {
     float: none;
     width: 100%;
     min-height: 0;
   }
 
   .menu-nav {
-    height: 75vh;
+    height: 72vh;
     transform: translate3d(-100%, 0, 0);
     font-size: 1.2rem;
   }
 
   .menu-branding {
-    height: 25vh;
+    height: 28vh;
     transform: translate3d(100%, 0, 0);
 
     .portrait {
@@ -45,13 +44,7 @@
     }
   }
 }
-
 // Larger screens - Laptops & PCs
-@include mediaLg {
-
-}
-
+@include mediaLg {}
 // Wide Screens
-@include mediaXl {
-
-}
+@include mediaXl {}

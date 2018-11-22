@@ -7,11 +7,12 @@ header{
 }
 
 main {
-  padding: 4rem;
+  padding: 4rem 10%;
   height: 100%;
 
   .icons {
     margin-top: 1rem;
+    font-size: 1.5rem;
 
     a {
       padding: 0.4rem;
@@ -26,7 +27,7 @@ main {
   &#home {
     overflow: hidden;
     h1 {
-      margin-top: 20vh;
+      margin-top: 30vh;
     }
   }
 }
