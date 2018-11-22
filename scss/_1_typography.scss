@@ -1,1 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+// HEADINGS
+h1 {
+  font-weight: 400;
+}
+
+h1,
+h2 {
+  &.lg-heading {
+    font-size: 3.3rem;
+  }
+
+  &.sm-heading {
+    margin-bottom: 2rem;
+    padding: 0.4rem;
+    background: rgba(lighten($primary-color, 2) ,0.8);
+    display: inline-block;
+  }
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
