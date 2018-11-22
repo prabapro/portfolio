@@ -12,7 +12,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: white;
+    background: $theme-light;
     @include easeOut;
   }
 
@@ -43,7 +43,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.95;
   visibility: hidden;
 
   &.show {
@@ -63,7 +62,7 @@
   }
 
   &-nav {
-    background: darken($primary-color, 5);
+    background: darken($primary-color, 3);
     transform: translate3d(0, -100%, 0);
     @include easeOut;
 
@@ -75,7 +74,7 @@
 
   // Branding side
   &-branding {
-    background: $primary-color;
+    background: darken($primary-color, 10);
     transform: translate3d(0, 100%, 0);
     @include easeOut;
 
@@ -112,11 +111,13 @@
     display: inline-block ;
     position: relative;
     font-size: 1.3rem;
-    text-transform: capitalize;
+    font-weight: 400;
+    text-transform: uppercase;
     padding: 1rem 0;
 
     &:hover {
       color: $secondary-color;
+      border-bottom: 1px solid $secondary-color;
       @include easeOut;
     }
   }

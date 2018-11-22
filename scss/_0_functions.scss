@@ -1,0 +1,10 @@
+// FUNCTION
+
+// Set text color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return $theme-dark;
+  } @else {
+    @return $theme-light;
+  }
+}

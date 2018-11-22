@@ -1,37 +1,41 @@
 @charset 'UTF-8';
 
-// 1. Configuration and helpers (Utilities)
-@import
-  '_0_variables',
-  '_0_functions',
-  '_0_mixins';
 
-// 2. Vendors
+// Vendors
 @import
   '_vendors_reset',
   '_vendors_jquery',
   '_vendors_bootstrap';
 
-// 3. Base stuff
+// 0. Configuration and helpers (Utilities)
+@import
+  '_0_variables',
+  '_0_functions',
+  '_0_mixins';
+
+// 1. Base stuff
 @import
   '_1_main',
-  '_1_typography',
-  '_1_responsive';
+  '_1_typography';
 
-// 4. Layout-related sections
+// 2. Layout-related sections
 @import
-  '_2_layout_header',
   '_2_layout_grid',
-  '_2_layout_sidebar',
+  '_2_layout_header',
   '_2_layout_navigation',
+  '_2_layout_sidebar',
   '_2_layout_forms',
   '_2_layout_footer';
 
-// 5. Components
+// 3. Components
 @import
   '_3_components';
 
-// 6. Page-specific styles
+// 4. Page-specific styles
 @import
   '_4_pages_home',
   '_4_pages_contact';
+
+// 5. Media Queries
+@import
+  '_5_responsive';
